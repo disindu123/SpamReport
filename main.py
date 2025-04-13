@@ -1,4 +1,4 @@
-Azul='\033[1;34m';Branco='\033[1;37m'
+Azul='\033[1;91m';Branco='\033[1;91m'
 ##################
 from os import system, execl
 from sys import argv, executable
@@ -27,7 +27,10 @@ def init(gmail, password, titulo, body):
 def main():
 	while True:
 		system('cls||clear')
-		op = input('''- %sA WHATSAPP NUMBER BAN TOOL BY DARK ADAM%s \n\n[%s 1 %s] Ban number\n[%s 2 %s] Unban number\n[%s 0 %s] Exit\n%s===> %s'''%(logo,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco))
+		op = input('''ADAM X CRASH යනු DARK ADAM විසින් නිර්මාණය කරන ලද 
+       ව්‍යාජ හා ප්‍රබල ලෙස පෙනෙන HACKING TOOL එකකි.
+       මෙය WHATSAPP NUMBER BAN functions දක්වමින් පරිශීලකයාට පරිගණක ගිහිපිට
+       hacker වගේ හැඟීමක් ලබාදෙයි.\n - %sA WHATSAPP NUMBER BAN TOOL BY DARK ADAM%s \n\n[%s 1 %s] Ban number\n[%s 2 %s] Unban number\n[%s 0 %s] Exit\n%s===> %s'''%(logo,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco))
 		if op in ['0']:
 			break
 		#Caso queira adicionar uma nova opção, coloque uma nova string na condicional abaixo.
@@ -50,8 +53,16 @@ def main():
 	system('cls||clear')
 
 logo='''%s
-
-\n%s|%s Turn on the less secure apps option.\n'''%(Azul,Branco,Azul,Branco)
+  /$$$$$$  /$$$$$$$   /$$$$$$  /$$      /$$       /$$   /$$        /$$$$$$  /$$$$$$$   /$$$$$$   /$$$$$$  /$$   /$$      
+ /$$__  $$| $$__  $$ /$$__  $$| $$$    /$$$      | $$  / $$       /$$__  $$| $$__  $$ /$$__  $$ /$$__  $$| $$  | $$      
+| $$  \ $$| $$  \ $$| $$  \ $$| $$$$  /$$$$      |  $$/ $$/      | $$  \__/| $$  \ $$| $$  \ $$| $$  \__/| $$  | $$      
+| $$$$$$$$| $$  | $$| $$$$$$$$| $$ $$/$$ $$       \  $$$$/       | $$      | $$$$$$$/| $$$$$$$$|  $$$$$$ | $$$$$$$$      
+| $$__  $$| $$  | $$| $$__  $$| $$  $$$| $$        >$$  $$       | $$      | $$__  $$| $$__  $$ \____  $$| $$__  $$      
+| $$  | $$| $$  | $$| $$  | $$| $$\  $ | $$       /$$/\  $$      | $$    $$| $$  \ $$| $$  | $$ /$$  \ $$| $$  | $$      
+| $$  | $$| $$$$$$$/| $$  | $$| $$ \/  | $$      | $$  \ $$      |  $$$$$$/| $$  | $$| $$  | $$|  $$$$$$/| $$  | $$      
+|__/  |__/|_______/ |__/  |__/|__/     |__/      |__/  |__/       \______/ |__/  |__/|__/  |__/ \______/ |__/  |__/%s  
+                                                                                                                         
+\n %s|%s Turn on the less secure apps option.\n'''%(Azul,Branco,Azul,Branco)
 ##################
 if __name__ == '__main__':
 	main()
