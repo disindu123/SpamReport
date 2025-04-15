@@ -1,4 +1,4 @@
-Azul='\033[1;91m';Branco='\033[1;91m'
+Azul='\033[1;34m';Branco='\033[1;37m'
 ##################
 from os import system, execl
 from sys import argv, executable
@@ -27,24 +27,22 @@ def init(gmail, password, titulo, body):
 def main():
 	while True:
 		system('cls||clear')
-		op = input('''ADAM X CRASH යනු DARK ADAM විසින් නිර්මාණය කරන ලද 
-       ව්‍යාජ හා ප්‍රබල ලෙස පෙනෙන HACKING TOOL එකකි.
-       මෙය WHATSAPP NUMBER BAN functions දක්වමින් පරිශීලකයාට පරිගණක ගිහිපිට
-       hacker වගේ හැඟීමක් ලබාදෙයි.\n - %sA WHATSAPP NUMBER BAN TOOL BY DARK ADAM%s \n\n[%s 1 %s] Ban number\n[%s 2 %s] Unban number\n[%s 0 %s] Exit\n%s===> %s'''%(logo,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco))
+		op = input('''- %sLET'S BAN NUMBERS%s
+- %sCREATED BY DARK CYBER MATRIX TEAM MEMBER DARK ADAM%s : [%s 1 %s] Banir número    %s|%s Ban number\n[%s 2 %s] Desbanir número %s|%s Unban number\n[%s 0 %s] Sair            %s|%s Exit\n%s===> %s'''%(logo,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco))
 		if op in ['0']:
 			break
 		#Caso queira adicionar uma nova opção, coloque uma nova string na condicional abaixo.
 		elif op in ['1','2']:
 			open('https://myaccount.google.com/lesssecureapps?pli=1&rapt=AEjHL4OSggjYOgt8g8HbgSU58LpUqQ5GsD63ipENqa84YegMHionqqvIXMMoc4bqu-C0GH0N--Kal_AFpd5rRJYyO0g-y1AbEQ');system('termux-open-url https://myaccount.google.com/lesssecureapps?pli=1&rapt=AEjHL4OSggjYOgt8g8HbgSU58LpUqQ5GsD63ipENqa84YegMHionqqvIXMMoc4bqu-C0GH0N--Kal_AFpd5rRJYyO0g-y1AbEQ')
 			try:
-				numero=str(input('%s[%s Number %s] - %s'%(Azul,Branco,Azul,Branco,Azul,Branco)))
+				numero=str(input('%s[%s Número %s|%s Number %s] - %s'%(Azul,Branco,Azul,Branco,Azul,Branco)))
 		                #Aqui você pode colocar um novo texto ou alterar um já existente.
 				op={
 				'1':'Desative este número|Estou solicitando a desativação temporária da minha conta no whatsapp, meu numero: %s'%numero,
 				'2':'Meu número foi banido injustamente|Nossa! Eu estou trabalhando e de repente meu número foi banido, eu não sei o quê aconteceu, preciso do meu número pois é do trabalho, eu preciso atender meus clientes. Meu número: %s'%numero
 				}[op]
 				gmail=str(input('%s[ %sGmail%s ] -%s '%(Azul,Branco,Azul,Branco)))
-				password=str(input('%s[%s Password %s] - %s' %(Azul,Branco,Azul,Branco,Azul,Branco)))
+				password=str(input('%s[%s Senha %s|%s Password %s] - %s' %(Azul,Branco,Azul,Branco,Azul,Branco)))
                                 # Caso queira mudar a quantidade de mensagens que serão enviadas, altere no range
 				for _ in range(1):
 					Thread(target = init, args = (gmail, password, op.split('|')[0],op.split('|')[1])).start()
@@ -60,9 +58,8 @@ logo='''%s
 | $$__  $$| $$  | $$| $$__  $$| $$  $$$| $$        >$$  $$       | $$      | $$__  $$| $$__  $$ \____  $$| $$__  $$      
 | $$  | $$| $$  | $$| $$  | $$| $$\  $ | $$       /$$/\  $$      | $$    $$| $$  \ $$| $$  | $$ /$$  \ $$| $$  | $$      
 | $$  | $$| $$$$$$$/| $$  | $$| $$ \/  | $$      | $$  \ $$      |  $$$$$$/| $$  | $$| $$  | $$|  $$$$$$/| $$  | $$      
-|__/  |__/|_______/ |__/  |__/|__/     |__/      |__/  |__/       \______/ |__/  |__/|__/  |__/ \______/ |__/  |__/%s  
-                                                                                                                         
-\n %s|%s Turn on the less secure apps option.\n'''%(Azul,Branco,Azul,Branco)
+|__/  |__/|_______/ |__/  |__/|__/     |__/      |__/  |__/       \______/ |__/  |__/|__/  |__/ \______/ |__/  |__/      
+%sAtive a opção de apps menos seguros. %s|%s Turn on the less secure apps option.\n'''%(Azul,Branco,Azul,Branco)
 ##################
 if __name__ == '__main__':
 	main()
