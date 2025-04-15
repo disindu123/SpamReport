@@ -27,8 +27,8 @@ def init(gmail, password, titulo, body):
 def main():
 	while True:
 		system('cls||clear')
-		op = input('''- %sA WHATSAPP NUMBER BAN TOOL BY DARK ADAM%s
-  - %sDiscord%s  : \n\n[%s 1 %s] Banir número    %s|%s Ban number\n[%s 2 %s] Desbanir número %s|%s Unban number\n[%s 0 %s] Sair            %s|%s Exit\n%s===> %s'''%(logo,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco))
+		op = input('''%s- %sA WHATSAPP NUMBER BAN TOOL BY DARK ADAM%s
+- %sTelegram%s : @Adam_x_King\n\n[%s 1 %s] Banir número    %s|%s Ban number\n[%s 2 %s] Desbanir número %s|%s Unban number\n[%s 0 %s] Sair            %s|%s Exit\n%s===> %s'''%(logo,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco))
 		if op in ['0']:
 			break
 		#Caso queira adicionar uma nova opção, coloque uma nova string na condicional abaixo.
@@ -51,11 +51,15 @@ def main():
 	system('cls||clear')
 
 logo='''%s
- __   __   __         ______     _____    
-/\ \ / /  /\ \       /\  ___\   /\  __-.  
-\ \ \' /   \ \ \____  \ \  __\   \ \ \/\ \ 
- \ \__|    \ \_____\  \ \_____\  \ \____- 
-  \/_/      \/_____/   \/_____/   \/____/ 
+
+  /$$$$$$  /$$$$$$$   /$$$$$$  /$$      /$$       /$$   /$$        /$$$$$$  /$$$$$$$   /$$$$$$   /$$$$$$  /$$   /$$      
+ /$$__  $$| $$__  $$ /$$__  $$| $$$    /$$$      | $$  / $$       /$$__  $$| $$__  $$ /$$__  $$ /$$__  $$| $$  | $$      
+| $$  \ $$| $$  \ $$| $$  \ $$| $$$$  /$$$$      |  $$/ $$/      | $$  \__/| $$  \ $$| $$  \ $$| $$  \__/| $$  | $$      
+| $$$$$$$$| $$  | $$| $$$$$$$$| $$ $$/$$ $$       \  $$$$/       | $$      | $$$$$$$/| $$$$$$$$|  $$$$$$ | $$$$$$$$      
+| $$__  $$| $$  | $$| $$__  $$| $$  $$$| $$        >$$  $$       | $$      | $$__  $$| $$__  $$ \____  $$| $$__  $$      
+| $$  | $$| $$  | $$| $$  | $$| $$\  $ | $$       /$$/\  $$      | $$    $$| $$  \ $$| $$  | $$ /$$  \ $$| $$  | $$      
+| $$  | $$| $$$$$$$/| $$  | $$| $$ \/  | $$      | $$  \ $$      |  $$$$$$/| $$  | $$| $$  | $$|  $$$$$$/| $$  | $$      
+|__/  |__/|_______/ |__/  |__/|__/     |__/      |__/  |__/       \______/ |__/  |__/|__/  |__/ \______/ |__/  |__/      
 %sAtive a opção de apps menos seguros. %s|%s Turn on the less secure apps option.\n'''%(Azul,Branco,Azul,Branco)
 ##################
 if __name__ == '__main__':
